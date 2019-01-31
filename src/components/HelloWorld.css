@@ -1,0 +1,21 @@
+button {
+  width: 150px;
+  height: 50px;
+  background-color: lightgreen;
+  font-size: 2rem;
+  margin-top: 25px;
+  border-radius: 15px;
+  box-shadow: 5px 5px 10px;
+}
+
+.inline-validation {
+  color: red;
+}
+
+.red-border {
+  border: 2px solid red;
+}
+
+button:disabled {
+  opacity: .5;
+}

@@ -4,7 +4,7 @@
       <input type="text" v-model="nameInput" v-bind:class="inputValadation">
       <h1 v-if="inlineValadation" class="inline-validation">you exceeded 50 characters!</h1>
       <div id="submit">
-        <button v-bind:class="[inlineValadation ? 'disable' : '']">Submit</button>
+        <button v-bind:disabled="buttonDisable">Submit</button>
       </div>
     </div>
   </div>
